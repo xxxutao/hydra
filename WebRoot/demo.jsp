@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		String usr="中文";
 		Cookie cookie=new Cookie("user",URLEncoder.encode(usr,"UTF-8"));
 
-  	//ApplicationContext context=WebApplicationContextUtils.getWebApplicationContext(request.getSession().getServletContext());
+  	//ApplicationContext context=WebApplicationCont	extUtils.getWebApplicationContext(request.getSession().getServletContext());
    %>
    	<script type="text/javascript">
    		$(document).ready(

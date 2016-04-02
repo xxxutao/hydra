@@ -1,4 +1,4 @@
 /**
  * 
  */
-$("#headDiv").load("head.html");
+$("#headDiv").load("/head.html");
